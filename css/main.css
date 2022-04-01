@@ -24,6 +24,8 @@ img{
     background-color: rgb(10,61,98);
     height: 60px;
     padding: 0;
+    padding-left: 2em;
+    padding-right: 0.5em;
     display: flex;
     align-items: center;
     width: 100%;
@@ -70,9 +72,7 @@ img{
     font-weight: normal;
     text-decoration: none;
 }
-.nav ul li:nth-child(1):hover ~ .dropdown{
-    display: block;
-}
+
 #search-btn{
     margin-left: auto;
     border-left: 2px solid rgba(255, 255, 255, 0.25);
