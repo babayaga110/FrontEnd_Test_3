@@ -5,10 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FrontEnd Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>            
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="nav">
+            <img class="logo" src="./img/LOGO-1-1.png" alt="logo">
+            <nav class="navbar">
+                <ul>
+                    <li class="nav-items"><a href="#" class="nav-link">Technology</a></li>
+                    <li class="nav-items" onmouseover="mouseover()" onmouseout="mouseout()">
+                        <a href="#" class="nav-link">General News</a>
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-link">US</a>
+                        </div>
+                    </li>
+                    <li class="nav-items"><a href="#" class="nav-link">TV Shows</a></li>
+                    <li class="nav-items"><a href="#" class="nav-link">Movies</a></li>
+                </ul>
+            </nav>
+            <a id="search-btn" href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
